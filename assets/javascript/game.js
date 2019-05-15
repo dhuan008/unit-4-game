@@ -1,3 +1,4 @@
-$(document).ready( function() {
-
+// Shorthand document ready
+$(function() {
+    console.log("docment ready");
 });
