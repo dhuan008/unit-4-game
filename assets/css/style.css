@@ -2,11 +2,12 @@
 @import "reset.css";
 
 body {
+    height: 100vh;
     background-color: lightblue;
 }
 
 .main-container {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 h1 {
@@ -16,6 +17,12 @@ h1 {
 
 p {
     font-size: 18px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 }
 
 .bg-orange {
