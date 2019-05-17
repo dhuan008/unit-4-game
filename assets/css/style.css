@@ -1,12 +1,12 @@
 /* Include Eric Meyer's Reset CSS 2.0 */
 @import "reset.css";
 
-html, body {
-    height: 100%;
-}
-
 body {
     background-color: lightblue;
+}
+
+.main-container {
+    min-height: 100vh;
 }
 
 h1 {
